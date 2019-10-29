@@ -1,7 +1,7 @@
-require './lib/boris_bikes.rb'
+require './lib/bikes.rb'
 describe Bike do
   it 'is bike working?' do
-    docking_station = DockingStation.new
-    expect(docking_station).to respond_to(:release_bike)
+    bike = Bike.new
+    expect(bike).to respond_to(:working?)
   end
 end
