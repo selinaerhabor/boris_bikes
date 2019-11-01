@@ -1,4 +1,4 @@
-require './lib/bikes.rb'
+require './lib/boris_bikes.rb'
 describe Bike do
   it 'is bike working?' do
     bike = Bike.new
